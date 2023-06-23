@@ -8,6 +8,10 @@ const Count = ()=>{
             <p id="incr-cnt">Count: {count}</p>
             <button id="incr-btn" onClick={()=>{setCount(count+1)}}>0</button>
             <br/>
+            <h2>Expensive Calculation</h2>
+            <p id="calc">{1000000000+count}</p>
+            <hr />
+            <hr />
             <br/>
         </div>
     )
