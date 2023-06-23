@@ -15,7 +15,7 @@ const Memo = ()=>{
                 <ul>
                     {
                         memos.map(memo=>(
-                            <li>{memo}</li>
+                            <li id={`item-${memo}`}>{memo}</li>
                         ))
                     }
                 </ul>
