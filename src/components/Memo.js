@@ -7,7 +7,7 @@ const Memo = ()=>{
     return(
         <div>
             <h2>React.memo</h2>
-            <input id="skill-inpu" type="text" onChange={(e)=>{setSkill(e.target.value)}}></input>
+            <input id="skill-input" type="text" onChange={(e)=>{setSkill(e.target.value)}}></input>
             <button onClick={()=>{setMemos([...memos, skill])}}>Add Skill</button>
             <br/>
             {
