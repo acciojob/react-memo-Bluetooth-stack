@@ -8,8 +8,8 @@ const Todo = ()=>{
             <h2>My todos</h2>
             {
                 todos &&
-                todos.map(todo=>(
-                    <p>{todo}</p>
+                todos.map((todo, ind)=>(
+                    <p id={`todo-${ind}`}>{todo}</p>
                 ))
             }
             <button id='add-todo-btn' onClick={()=>{setTodos([...todos, 'New todo'])}}>Add Todo</button>
