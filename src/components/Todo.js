@@ -12,7 +12,7 @@ const Todo = ()=>{
                     <p>{todo}</p>
                 ))
             }
-            <button onClick={()=>{setTodos([...todos, 'New todo'])}}>Add Todo</button>
+            <button id='add-todo-btn' onClick={()=>{setTodos([...todos, 'New todo'])}}>Add Todo</button>
             <br/>
             <br/>
             <hr />
